@@ -7,19 +7,26 @@ const app = express();
 app.use(cors());
 app.use(express.text());
 
+let processed = { freq: {}, comm: {}, sent: "" };
+
 app.get("/", (req, res) => {
-  res.send("<h1>Hello world</h1>");
+  res.json(processed);
 });
 
 app.post("/", (req, res) => {
   const text = req.body;
   console.log(text);
   const result = processText(text);
-  res.send({
+  processed = {
     freq: result.wordFreq,
     comm: result.mostCommon,
     sent: result.sent,
-  });
+  };
+  res.json(processed);
+});
+
+app.delete("/", (req, res) => {
+  processed = { freq: {}, comm: {}, sent: "" };
 });
 
 const PORT = 3001;
