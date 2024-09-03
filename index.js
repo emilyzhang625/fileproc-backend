@@ -1,3 +1,5 @@
+const processText = require("./modules/processText");
+
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -12,8 +14,12 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   const text = req.body;
   console.log(text);
-  res.send({ text });
-  console.log("hello");
+  const result = processText(text);
+  res.send({
+    freq: result.wordFreq,
+    comm: result.mostCommon,
+    sent: result.sent,
+  });
 });
 
 const PORT = 3001;

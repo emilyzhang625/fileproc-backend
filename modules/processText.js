@@ -1,4 +1,4 @@
-import Sentiment from "sentiment";
+const Sentiment = require("sentiment");
 
 function processText(text) {
   const words = text.split(/\s+/);
@@ -27,4 +27,4 @@ function processText(text) {
   return { wordFreq, mostCommon, sent };
 }
 
-export default processText;
+module.exports = processText;
