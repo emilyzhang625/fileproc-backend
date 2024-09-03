@@ -9,7 +9,7 @@ A text file processor analyzing word frequency, common words, and overall sentim
 
 **Run Locally:**
 
-1. Clone the repositories
+1. Clone the repository
 
 ```bash
 git clone https://github.com/emilyzhang625/fileproc-frontend
@@ -19,7 +19,7 @@ git clone https://github.com/emilyzhang625/fileproc-frontend
 git clone https://github.com/emilyzhang625/fileproc-backend
 ```
 
-2. Navigate to the corresponding directory
+2. Navigate to the project directory
 
 ```bash
 cd fileproc-frontend
