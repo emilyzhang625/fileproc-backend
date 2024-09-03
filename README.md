@@ -7,23 +7,15 @@ A text file processor analyzing word frequency, common words, and overall sentim
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
 
-**Run Locally:**
+**Backend Setup:**
 
-1. Clone the repositories
-
-```bash
-git clone https://github.com/emilyzhang625/fileproc-frontend
-```
+1. Clone the repository
 
 ```bash
 git clone https://github.com/emilyzhang625/fileproc-backend
 ```
 
-2. Navigate to the corresponding directories
-
-```bash
-cd fileproc-frontend
-```
+2. Navigate to the project directory
 
 ```bash
 cd fileproc-backend
@@ -35,15 +27,7 @@ cd fileproc-backend
 npm install
 ```
 
-```bash
-npm install
-```
-
-4. Start the development servers and open in browser
-
-```bash
-npm run dev
-```
+4. Start the server and view here: [localhost:3001](http://localhost:3001/)
 
 ```bash
 npm start
