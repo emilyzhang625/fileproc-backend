@@ -27,8 +27,35 @@ cd fileproc-backend
 npm install
 ```
 
-4. Start the server and view here: [localhost:3001](http://localhost:3001/)
+4. Start the server and view reflected changes here: [localhost:3001](http://localhost:3001/)
 
 ```bash
 npm start
 ```
+
+**Frontend Setup:**
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/emilyzhang625/fileproc-frontend
+```
+
+2. Navigate to the project directory
+
+```bash
+cd fileproc-frontend
+```
+
+3. Install the dependencies
+
+```bash
+npm install
+```
+
+4. Start the server and open in browser
+
+```bash
+npm run dev
+```
+
