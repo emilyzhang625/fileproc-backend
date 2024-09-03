@@ -9,7 +9,7 @@ A text file processor analyzing word frequency, common words, and overall sentim
 
 **Run Locally:**
 
-1. Clone the repository
+1. Clone the repositories
 
 ```bash
 git clone https://github.com/emilyzhang625/fileproc-frontend
@@ -19,7 +19,7 @@ git clone https://github.com/emilyzhang625/fileproc-frontend
 git clone https://github.com/emilyzhang625/fileproc-backend
 ```
 
-2. Navigate to the project directory
+2. Navigate to the corresponding directories
 
 ```bash
 cd fileproc-frontend
@@ -39,7 +39,7 @@ npm install
 npm install
 ```
 
-4. Start the development server and open in browser
+4. Start the development servers and open in browser
 
 ```bash
 npm run dev
