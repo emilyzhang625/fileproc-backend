@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   const text = req.body;
   console.log(text);
-  res.json(text);
+  res.send({ text });
   console.log("hello");
 });
 
