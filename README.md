@@ -27,7 +27,7 @@ cd fileproc-backend
 npm install
 ```
 
-4. Start the server and view reflected changes here: [localhost:3001](http://localhost:3001/)
+4. Start the server and view reflected changes: [localhost:3001](http://localhost:3001/)
 
 ```bash
 npm start
