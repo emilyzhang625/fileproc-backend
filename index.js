@@ -27,6 +27,7 @@ app.post("/", (req, res) => {
 
 app.delete("/", (req, res) => {
   processed = { freq: {}, comm: {}, sent: "" };
+  res.json(processed);
 });
 
 const PORT = 3001;
