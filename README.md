@@ -2,6 +2,8 @@
 
 A text file processor analyzing word frequency, common words, and overall sentiment of the input.
 
+**Frontend Repo:** [fileproc-frontend](https://github.com/emilyzhang625/fileproc-frontend)
+
 **Prereqs:**
 
 - [Git](https://git-scm.com/)
@@ -58,5 +60,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-**Frontend Repo:** [fileproc-frontend](https://github.com/emilyzhang625/fileproc-frontend)
