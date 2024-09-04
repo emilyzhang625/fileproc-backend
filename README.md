@@ -4,7 +4,7 @@ A text file processor analyzing word frequency, common words, and overall sentim
 
 **Frontend Repo:** [fileproc-frontend](https://github.com/emilyzhang625/fileproc-frontend)
 
-**Prereqs:** [Git](https://git-scm.com/), [Node.js](https://nodejs.org/)
+**Prereqs:** Git, Node.js
 
 **Backend Setup:**
 
