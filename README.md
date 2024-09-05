@@ -1,7 +1,5 @@
 # File Processer
 
-A text file processor analyzing word frequency, common words, and overall sentiment of the input.
-
 **Tech Stack:** React, Node.js, Express
 
 **Frontend Repo:** [fileproc-frontend](https://github.com/emilyzhang625/fileproc-frontend)
